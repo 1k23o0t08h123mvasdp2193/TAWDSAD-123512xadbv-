@@ -38,14 +38,6 @@ getgenv().Config = {
             Price = 60000,
             Type = "Misc"
         },
-     { Item = "Mini Chest",
-            Price = 35000,
-            Type = "Misc"
-        },
-     { Item = "Rainbow Mini Chest",
-            Price = 700000,
-            Type = "Misc"
-        },
      { Item = "Large Gift Bag",
             Price = 10000,
             Type = "Misc"
