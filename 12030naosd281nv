@@ -110,6 +110,36 @@ getgenv().Config = {
             Price = 200000000,
             Type = "Ultimate"
         },
+     { Item = "Huge Wizard Westie",
+            Price = 60000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Rock",
+            Price = 65000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hell Rock",
+            Price = 65000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Elephant",
+            Price = 65000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Computer",
+            Price = 65000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Computer",
+            Price = 65000000,
+            pt = 1,
+            Type = "Pet"
+        },
     },
 
     Extra = {
