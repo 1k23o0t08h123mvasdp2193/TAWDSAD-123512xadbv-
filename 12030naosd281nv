@@ -15,7 +15,7 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Void Key Upper Half",
-            Price = 120000,
+            Price = 100000,
             Type = "Misc"
         },
      { Item = "Tech Key Upper Half",
@@ -31,35 +31,31 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Chest Mimic",
-            Price = 1500000000,
+            Price = 1400000000,
             Type = "Enchant"
         },
      { Item = "Boss Chest Mimic",
-            Price = 200000000,
+            Price = 175000000,
             Type = "Enchant"
         },
      { Item = "Boss Lucky Block",
-            Price = 400000000,
+            Price = 325000000,
             Type = "Enchant"
         },
      { Item = "Super Maget",
-            Price = 325000000,
-            Type = "Enchant"
-        },
-     { Item = "Super Shiny Hunter",
-            Price = 325000000,
-            Type = "Enchant"
-        },
-     { Item = "Superior Chest Mimic",
             Price = 300000000,
             Type = "Enchant"
         },
-     { Item = "Mastery XP Potion",
-            Price = 1500000,
-            Type = "Potion"
+     { Item = "Super Shiny Hunter",
+            Price = 250000000,
+            Type = "Enchant"
+        },
+     { Item = "Superior Chest Mimic",
+            Price = 200000000,
+            Type = "Enchant"
         },
      { Item = "Hidden Treasure",
-            Price = 800000000,
+            Price = 600000000,
             Type = "Ultimate"
         },
      { Item = "Royalty",
@@ -79,40 +75,40 @@ getgenv().Config = {
             Type = "Enchant"
         },
      { Item = "Diamond Chest Mimic",
-            Price = 125000000,
+            Price = 100000000,
             Type = "Enchant"
         },
      { Item = "Chest Spell",
-            Price = 200000000,
+            Price = 175000000,
             Type = "Ultimate"
         },
      { Item = "Huge Wizard Westie",
-            Price = 60000000,
+            Price = 50000000,
             pt = nil,
             Type = "Pet"
         },
      { Item = "Huge Happy Rock",
-            Price = 65000000,
+            Price = 50000000,
             pt = nil,
             Type = "Pet"
         },
      { Item = "Huge Hell Rock",
-            Price = 65000000,
+            Price = 50000000,
             pt = nil,
             Type = "Pet"
         },
      { Item = "Huge Elephant",
-            Price = 65000000,
+            Price = 50000000,
             pt = nil,
             Type = "Pet"
         },
      { Item = "Huge Happy Computer",
-            Price = 65000000,
+            Price = 50000000,
             pt = 2,
             Type = "Pet"
         },
      { Item = "Huge Happy Computer",
-            Price = 65000000,
+            Price = 50000000,
             pt = 1,
             Type = "Pet"
         },
