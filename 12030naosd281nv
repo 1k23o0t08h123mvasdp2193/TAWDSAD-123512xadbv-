@@ -6,10 +6,6 @@ getgenv().Config = {
     -- Note: Put your items in order of Importance
     -- If using Terminal hop, as it will check for items in order.
     Items = {
-     { Item = "Secret Key",
-            Price = 63000,
-            Type = "Misc"
-        },
      { Item = "Tech Key",
             Price = 62000,
             Type = "Misc"
@@ -24,10 +20,6 @@ getgenv().Config = {
         },
      { Item = "Tech Key Upper Half",
             Price = 50000,
-            Type = "Misc"
-        },
-     { Item = "Secret Key Upper Half",
-            Price = 60000,
             Type = "Misc"
         },
      { Item = "Large Gift Bag",
