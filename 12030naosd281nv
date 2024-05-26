@@ -59,7 +59,7 @@ getgenv().Config = {
             Type = "Enchant"
         },
      { Item = "Superior Chest Mimic",
-            Price = 350000000,
+            Price = 300000000,
             Type = "Enchant"
         },
      { Item = "Mastery XP Potion",
