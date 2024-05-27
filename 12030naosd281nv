@@ -22,6 +22,34 @@ getgenv().Config = {
             Price = 50000,
             Type = "Misc"
         },
+     { Item = "Secret Key",
+            Price = 65000,
+            Type = "Misc"
+        },
+     { Item = "Crystal Key",
+            Price = 26000,
+            Type = "Misc"
+        },
+     { Item = "Apple",
+            Price = 200,
+            Type = "Fruit"
+        },
+     { Item = "Banana",
+            Price = 200,
+            Type = "Fruit"
+        },
+     { Item = "Orange",
+            Price = 200,
+            Type = "Fruit"
+        },
+     { Item = "Pineapple",
+            Price = 200,
+            Type = "Fruit"
+        },
+     { Item = "Watermelon",
+            Price = 200,
+            Type = "Fruit"
+        },
      { Item = "Large Gift Bag",
             Price = 9000,
             Type = "Misc"
