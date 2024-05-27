@@ -5,124 +5,562 @@ getgenv().Config = {
 
     -- Note: Put your items in order of Importance
     -- If using Terminal hop, as it will check for items in order.
-    Items = {
+    Items =
      { Item = "Tech Key",
-            Price = 62000,
-            Type = "Misc"
-        },
-     { Item = "Void Key",
-            Price = 120000,
-            Type = "Misc"
-        },
-     { Item = "Void Key Upper Half",
-            Price = 100000,
+            Price = 61000,
             Type = "Misc"
         },
      { Item = "Tech Key Upper Half",
-            Price = 50000,
+            Price = 55000,
+            Type = "Misc"
+        },
+     { Item = "Void Key",
+            Price = 100000,
+            Type = "Misc"
+        },
+     { Item = "Void Key Upper Half",
+            Price = 90000,
+            Type = "Misc"
+        },
+     { Item = "Crystal Key Upper Half",
+            Price = 23000,
+            Type = "Misc"
+        },
+     { Item = "Secret Key Upper Half",
+            Price = 60000,
+            Type = "Misc"
+        },
+     { Item = "Crystal Key",
+            Price = 27000,
             Type = "Misc"
         },
      { Item = "Secret Key",
             Price = 65000,
             Type = "Misc"
         },
-     { Item = "Crystal Key",
-            Price = 26000,
-            Type = "Misc"
-        },
-     { Item = "Apple",
-            Price = 200,
-            Type = "Fruit"
-        },
-     { Item = "Banana",
-            Price = 200,
-            Type = "Fruit"
-        },
-     { Item = "Orange",
-            Price = 200,
-            Type = "Fruit"
-        },
-     { Item = "Pineapple",
-            Price = 200,
-            Type = "Fruit"
-        },
-     { Item = "Watermelon",
-            Price = 200,
-            Type = "Fruit"
-        },
-     { Item = "Large Gift Bag",
-            Price = 9000,
-            Type = "Misc"
-        },
-     { Item = "Gift Bag",
-            Price = 2500,
-            Type = "Misc"
-        },
-     { Item = "Chest Mimic",
-            Price = 1400000000,
-            Type = "Enchant"
-        },
-     { Item = "Boss Chest Mimic",
-            Price = 175000000,
-            Type = "Enchant"
-        },
-     { Item = "Boss Lucky Block",
-            Price = 325000000,
-            Type = "Enchant"
-        },
-     { Item = "Super Maget",
-            Price = 300000000,
+     { Item = "Superior Chest Mimic",
+            Price = 100000000,
             Type = "Enchant"
         },
      { Item = "Super Shiny Hunter",
-            Price = 250000000,
+            Price = 350000000,
             Type = "Enchant"
         },
-     { Item = "Superior Chest Mimic",
-            Price = 200000000,
-            Type = "Enchant"
-        },
-     { Item = "Hidden Treasure",
-            Price = 600000000,
-            Type = "Ultimate"
-        },
-     { Item = "Royalty",
-            Price = 5000000,
-            Type = "Charm"
-        },
-     { Item = "Overload",
-            Price = 7000000,
-            Type = "Charm"
-        },
-     { Item = "Chest Breaker",
-            Price = 50000000,
-            Type = "Enchant"
-        },
-     { Item = "Corruption",
-            Price = 50000000,
+     { Item = "Super Magnet",
+            Price = 350000000,
             Type = "Enchant"
         },
      { Item = "Diamond Chest Mimic",
             Price = 100000000,
             Type = "Enchant"
         },
+     { Item = "Corruption",
+            Price = 90000000,
+            Type = "Enchant"
+        },
+     { Item = "Chest Breaker",
+            Price = 30000000,
+            Type = "Enchant"
+        },
+     { Item = "Chest Mimic",
+            Price = 1650000000,
+            Type = "Enchant"
+        },
+     { Item = "Boss Lucky Block",
+            Price = 340000000,
+            Type = "Enchant"
+        },
+     { Item = "Boss Chest Mimic",
+            Price = 180000000,
+            Type = "Enchant"
+        },
+     { Item = "Pinata",
+            Price = 25000,
+            Type = "Misc"
+        },
+     { Item = "Large Gift Bag",
+            Price = 8000,
+            Type = "Misc"
+        },
+     { Item = "Gift Bag",
+            Price = 2000,
+            Type = "Misc"
+        },
+     { Item = "Rainbow Mini Chest",
+            Price = 500000,
+            Type = "Misc"
+        },
+     { Item = "Mini Chest",
+            Price = 25000,
+            Type = "Misc"
+        },
+     { Item = "Hype Egg",
+            Price = 500000,
+            Type = "Lootbox"
+        },
+     { Item = "Black Hole",
+            Price = 375000000,
+            Type = "Ultimate"
+        },
+     { Item = "Hidden Treasure",
+            Price = 750000000,
+            Type = "Ultimate"
+        },
      { Item = "Chest Spell",
             Price = 175000000,
             Type = "Ultimate"
         },
-     { Item = "Huge Wizard Westie",
+     { Item = "Overload",
+            Price = 7000000,
+            Type = "Charm"
+        },
+     { Item = "Royalty",
+            Price = 5000000,
+            Type = "Charm"
+        },
+     { Item = "Huge Evolved Hell Rock",
+            Price = 70000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Hell Rock",
+            Price = 250000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Pterodactyl",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Pterodactyl",
+            Price = 550000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Cupcake",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Cupcake",
+            Price = 550000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved King Cobra",
+            Price = 120000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved King Cobra",
+            Price = 750000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Pixel Cat",
+            Price = 175000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Pixel Cat",
+            Price = 750000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Hacked Cat",
+            Price = 200000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Hacked Cat",
+            Price = 850000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Peacock",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Evolved Peacock",
+            Price = 600000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Present Cat",
+            Price = 10000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Owl",
+            Price = 10000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Sensei Penguin",
+            Price = 8000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Mystical Fox",
+            Price = 6000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Empyrean Axolotl",
+            Price = 10000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Alien Arachnid",
+            Price = 3000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Shark",
+            Price = 1500000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Bubble Dog",
+            Price = 5000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hot Dog",
+            Price = 200000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Arcade Dragon",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Tech Samurai Cat",
+            Price = 800000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Bejeweled Unicorn",
+            Price = 75000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Bejeweled Unicorn",
+            Price = 650000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Bejeweled Lion",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Bejeweled Lion",
+            Price = 750000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Party Dragon",
             Price = 50000000,
             pt = nil,
             Type = "Pet"
         },
-     { Item = "Huge Happy Rock",
+     { Item = "Huge Party Dragon",
+            Price = 125000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Party Dragon",
+            Price = 450000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Black Hole Axolotl",
+            Price = 80000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Black Hole Axolotl",
+            Price = 450000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Black Hole Kitsune",
+            Price = 175000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Black Hole Kitsune",
+            Price = 800000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Sketch Corgi",
+            Price = 70000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Sketch Corgi",
+            Price = 700000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Sketch Dragon",
+            Price = 90000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Sketch Dragon",
+            Price = 900000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Clover Fairy",
+            Price = 80000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Clover Fairy",
+            Price = 170000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Clover Fairy",
+            Price = 400000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Rich Cat",
+            Price = 70000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Rich Cat",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Rich Cat",
+            Price = 200000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Firely",
+            Price = 250000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Firely",
+            Price = 700000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Firely",
+            Price = 2500000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Jester Dog",
+            Price = 55000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Jester Dog",
+            Price = 550000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Super Tiger",
+            Price = 115000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Super Tiger",
+            Price = 850000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Glitched Cat",
+            Price = 235000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Glitched Cat",
+            Price = 535000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Glitched Cat",
+            Price = 2350000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Cyber Agony",
+            Price = 45000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Cyber Agony",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Cyber Agony",
+            Price = 100000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Abyssal Axolotl",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Abyssal Axolotl",
+            Price = 175000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Abyssal Axolotl",
+            Price = 1200000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Colorful Wisp",
             Price = 50000000,
             pt = nil,
             Type = "Pet"
         },
-     { Item = "Huge Hell Rock",
+     { Item = "Huge Lumi Axolotl",
+            Price = 170000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Lumi Axolotl",
+            Price = 250000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Lumi Axolotl",
+            Price = 650000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Willow Wisp",
             Price = 50000000,
             pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Willow Wisp",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Willow Wisp",
+            Price = 250000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Red Fluffy",
+            Price = 110000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Red Fluffy",
+            Price = 210000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Red Fluffy",
+            Price = 810000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Pastel Elephant",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Pastel Elephant",
+            Price = 75000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Pastel Elephant",
+            Price = 300000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Blurred Dominus",
+            Price = 750000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Blurred Dominus",
+            Price = 1500000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Blurred Dominus",
+            Price = 7500000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Purple Dragon",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Jelly Axolotl",
+            Price = 125000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Jelly Axolotl",
+            Price = 750000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Jelly Monkey",
+            Price = 145000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Jelly Monkey",
+            Price = 1200000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Computer",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Computer",
+            Price = 65000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Computer",
+            Price = 150000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Bat",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Bat",
+            Price = 65000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Bat",
+            Price = 200000000,
+            pt = 2,
             Type = "Pet"
         },
      { Item = "Huge Elephant",
@@ -130,23 +568,563 @@ getgenv().Config = {
             pt = nil,
             Type = "Pet"
         },
-     { Item = "Huge Happy Computer",
-            Price = 50000000,
+     { Item = "Huge Elephant",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Elephant",
+            Price = 175000000,
             pt = 2,
             Type = "Pet"
         },
-     { Item = "Huge Happy Computer",
+     { Item = "Huge Koi Fish",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Koi Fish",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Koi Fish",
+            Price = 175000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Bee",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Bee",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Bee",
+            Price = 185000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Valentines Cat",
+            Price = 120000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Valentines Cat",
+            Price = 820000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Heart Balloon Cat",
+            Price = 200000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Heart Balloon Cat",
+            Price = 1800000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Emoji Cat",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Emoji Cat",
+            Price = 700000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Shadow Dominus",
+            Price = 80000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Shadow Dominus",
+            Price = 90000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Shadow Dominus",
+            Price = 250000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Robber Pug",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Robber Pug",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Robber Pug",
+            Price = 170000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Hell Rock",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hell Rock",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Hell Rock",
+            Price = 190000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Rock",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Rock",
+            Price = 200000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Happy Rock",
+            Price = 180000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Fluffy Cat",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Fluffy Cat",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Fluffy Cat",
+            Price = 190000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Zebra",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Zebra",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Zebra",
+            Price = 190000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Knight Beagle",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Knight Beagle",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Knight Beagle",
+            Price = 190000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Holiday Pegasus",
+            Price = 60000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Holiday Pegasus",
+            Price = 600000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Peppermint Angelus",
+            Price = 150000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Peppermint Angelus",
+            Price = 1200000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Jolly Narwhal",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hoverboard Cat",
+            Price = 170000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hoverboard Cat",
+            Price = 180000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Hoverboard Cat",
+            Price = 1200000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Wizard Westie",
+            Price = 40000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Wizard Westie",
             Price = 50000000,
             pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Wizard Westie",
+            Price = 100000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Strawberry Corgi",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Strawberry Corgi",
+            Price = 300000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Hippomelon",
+            Price = 190000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hippomelon",
+            Price = 1200000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Stunt Unicorn",
+            Price = 12000000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Wildfire Agony",
+            Price = 150000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Wildfire Agony",
+            Price = 220000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Wildfire Agony",
+            Price = 1400000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Cosmic Agony",
+            Price = 210000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Cosmic Agony",
+            Price = 1500000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Cosmic Axolotl",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Cosmic Axolotl",
+            Price = 600000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Ninja Axolotl",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Ninja Axolotl",
+            Price = 115000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Ninja Axolotl",
+            Price = 600000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Sandcastle Cat",
+            Price = 170000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Sandcastle Cat",
+            Price = 700000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Sandcastle Cat",
+            Price = 5000000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Arcade Cat",
+            Price = 150000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Arcade Cat",
+            Price = 250000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Arcade Cat",
+            Price = 850000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Forest Wyvern",
+            Price = 200000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Hacked Cat",
+            Price = 75000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Dog",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Dragon",
+            Price = 100000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Cupcake",
+            Price = 60000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Cupcake",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Cupcake",
+            Price = 300000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Cat",
+            Price = 60000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Cat",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Cat",
+            Price = 300000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Peacock",
+            Price = 55000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Peacock",
+            Price = 50000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Peacock",
+            Price = 250000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Doodle Cat",
+            Price = 70000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Doodle Cat",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Doodle Cat",
+            Price = 370000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge King Cobra",
+            Price = 60000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge King Cobra",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge King Cobra",
+            Price = 275000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Enchanted Deer",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Enchanted Deer",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Enchanted Deer",
+            Price = 250000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Gecko",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Gecko",
+            Price = 90000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Gecko",
+            Price = 500000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Crocodile",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Crocodile",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Crocodile",
+            Price = 200000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Red Panda",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Red Panda",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Red Panda",
+            Price = 190000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Easter Dominus",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Easter Dominus",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Easter Dominus",
+            Price = 300000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Marshmallow Agony",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Marshmallow Agony",
+            Price = 70000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Marshmallow Agony",
+            Price = 320000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Ghost",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Ghost",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Ghost",
+            Price = 320000000,
+            pt = 2,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Corgi",
+            Price = 50000000,
+            pt = nil,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Corgi",
+            Price = 60000000,
+            pt = 1,
+            Type = "Pet"
+        },
+     { Item = "Huge Pixel Corgi",
+            Price = 220000000,
+            pt = 2,
             Type = "Pet"
         },
     },
 
     Extra = {
     -- BE CAREFUL WITH THIS! WE HAVE NO WAY TO CHECK IF RAP IS MANIPULATED!
-      Huges = {Enabled=true, Percentage= "-99%", priceCap = 10000000000}, -- Percentage = RAP Value -10%
+      Huges = {Enabled=true, Percentage= "-99%", priceCap = 1000000000000}, -- Percentage = RAP Value -10%
       Titanics = {Enabled=true, Percentage="-50%", priceCap = 50000000000},
-      Exclusive = {Enabled=false, Percentage="-50%", priceCap = 15000000},
+      Exclusive = {Enabled=true, Percentage="-99%", priceCap = 15000000},
       Exclusive_Eggs = {Enabled=true, Percentage="-15%", priceCap = 60000000},
       Any_Item = {Enabled=false, Percentage="-80%", priceCap = 50000000} -- WARNING: this will snipe ANY item, aslong as it meets the RAP Value Criteria
     },
