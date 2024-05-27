@@ -835,7 +835,7 @@ getgenv().Config = {
         },
      { Item = "Huge Hippomelon",
             Price = 1200000000,
-            pt = nil,
+            pt = 2,
             Type = "Pet"
         },
      { Item = "Huge Stunt Unicorn",
