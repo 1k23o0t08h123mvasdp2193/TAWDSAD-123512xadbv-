@@ -1,6 +1,6 @@
 getgenv().Config = {
 
-    HUGE_GAMES_AUTHKEY = "HUGE_hpj0z9kLON59",
+    HUGE_GAMES_AUTHKEY = "HUGE_1kWi5wA7h80Z",
     Minimum_Gems = 100000, -- Stops Sniping if your gems are lower than this Value
 
     -- Note: Put your items in order of Importance
