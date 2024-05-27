@@ -655,7 +655,7 @@ getgenv().Config = {
         },
      { Item = "Huge Emoji Cat",
             Price = 700000000,
-            pt = nil,
+            pt = 2,
             Type = "Pet"
         },
      { Item = "Huge Shadow Dominus",
