@@ -6,22 +6,6 @@ getgenv().Config = {
     -- Note: Put your items in order of Importance
     -- If using Terminal hop, as it will check for items in order.
     Items = {
-     { Item = "Tech Key",
-            Price = 61000,
-            Type = "Misc"
-        },
-     { Item = "Tech Key Upper Half",
-            Price = 55000,
-            Type = "Misc"
-        },
-     { Item = "Void Key",
-            Price = 100000,
-            Type = "Misc"
-        },
-     { Item = "Void Key Upper Half",
-            Price = 90000,
-            Type = "Misc"
-        },
      { Item = "Apple",
             Price = 220,
             Type = "Fruit"
@@ -42,24 +26,40 @@ getgenv().Config = {
             Price = 220,
             Type = "Fruit"
         },
+     { Item = "Tech Key",
+            Price = 50000,
+            Type = "Misc"
+        },
+     { Item = "Tech Key Upper Half",
+            Price = 45000,
+            Type = "Misc"
+        },
+     { Item = "Void Key",
+            Price = 50000,
+            Type = "Misc"
+        },
+     { Item = "Void Key Upper Half",
+            Price = 50000,
+            Type = "Misc"
+        },
      { Item = "Crystal Key Upper Half",
-            Price = 23000,
+            Price = 17000,
             Type = "Misc"
         },
      { Item = "Secret Key Upper Half",
-            Price = 60000,
+            Price = 50000,
             Type = "Misc"
         },
      { Item = "Crystal Key",
-            Price = 27000,
+            Price = 23000,
             Type = "Misc"
         },
      { Item = "Secret Key",
-            Price = 65000,
+            Price = 55000,
             Type = "Misc"
         },
      { Item = "Superior Chest Mimic",
-            Price = 100000000,
+            Price = 360000000,
             Type = "Enchant"
         },
      { Item = "Super Shiny Hunter",
@@ -75,7 +75,7 @@ getgenv().Config = {
             Type = "Enchant"
         },
      { Item = "Corruption",
-            Price = 90000000,
+            Price = 50000000,
             Type = "Enchant"
         },
      { Item = "Chest Breaker",
