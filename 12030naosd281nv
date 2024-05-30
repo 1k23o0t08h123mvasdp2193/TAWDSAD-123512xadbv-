@@ -75,11 +75,7 @@ getgenv().Config = {
             Type = "Enchant"
         },
      { Item = "Corruption",
-            Price = 50000000,
-            Type = "Enchant"
-        },
-     { Item = "Chest Breaker",
-            Price = 30000000,
+            Price = 15000000,
             Type = "Enchant"
         },
      { Item = "Chest Mimic",
