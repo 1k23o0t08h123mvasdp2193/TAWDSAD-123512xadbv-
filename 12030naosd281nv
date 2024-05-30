@@ -27,11 +27,11 @@ getgenv().Config = {
             Type = "Fruit"
         },
      { Item = "Tech Key",
-            Price = 50000,
+            Price = 45000,
             Type = "Misc"
         },
      { Item = "Tech Key Upper Half",
-            Price = 45000,
+            Price = 40000,
             Type = "Misc"
         },
      { Item = "Void Key",
