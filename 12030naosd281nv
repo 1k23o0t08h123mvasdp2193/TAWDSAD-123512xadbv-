@@ -1162,7 +1162,7 @@ getgenv().Config = {
     Webhooks = {
         Enable_Discord_Webhook = true,
         Webhook_Url = "https://discord.com/api/webhooks/1232076261099180154/4dKM5lFpNQe0B5fUjkXbBKbX4LgTbrXJVQj18ueFMmYj13mpFfpe_9XW_V5QNThKrbOC",
-        Hide_Username = true,
+        Hide_Username = false,
     }
 
 }
