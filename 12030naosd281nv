@@ -63,7 +63,7 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Secret Key",
-            Price = 50000,
+            Price = 45000,
             Type = "Misc"
         },
      { Item = "Superior Chest Mimic",
