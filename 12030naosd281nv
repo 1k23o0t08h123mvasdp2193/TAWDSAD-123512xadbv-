@@ -6,6 +6,14 @@ getgenv().Config = {
     -- Note: Put your items in order of Importance
     -- If using Terminal hop, as it will check for items in order.
     Items = {
+     { Item = "Golden Prison Key",
+            Price = 65000,
+            Type = "Misc"
+        },
+     { Item = "Prison Key",
+            Price = 6500,
+            Type = "Misc"
+        },
      { Item = "Apple",
             Price = 200,
             Type = "Fruit"
