@@ -119,7 +119,7 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Hype Egg",
-            Price = 400000,
+            Price = 300000,
             Type = "Lootbox"
         },
      { Item = "Black Hole",
