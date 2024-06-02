@@ -35,7 +35,7 @@ getgenv().Config = {
             Type = "Fruit"
         },
      { Item = "Tech Key",
-            Price = 45000,
+            Price = 40000,
             Type = "Misc"
         },
      { Item = "Tech Key Upper Half",
@@ -55,7 +55,7 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Secret Key Upper Half",
-            Price = 45000,
+            Price = 4-000,
             Type = "Misc"
         },
      { Item = "Crystal Key",
@@ -63,7 +63,7 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Secret Key",
-            Price = 45000,
+            Price = 40000,
             Type = "Misc"
         },
      { Item = "Superior Chest Mimic",
