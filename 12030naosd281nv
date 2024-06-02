@@ -55,11 +55,11 @@ getgenv().Config = {
             Type = "Misc"
         },
      { Item = "Secret Key Upper Half",
-            Price = 4-000,
+            Price = 40000,
             Type = "Misc"
         },
      { Item = "Crystal Key",
-            Price = 20000,
+            Price = 17000,
             Type = "Misc"
         },
      { Item = "Secret Key",
